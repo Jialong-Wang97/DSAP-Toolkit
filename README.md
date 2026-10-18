@@ -44,7 +44,7 @@ assert(report.NativePass, 'Native dependencies are incomplete');
 dsap_workspace;
 ```
 
-GitHub PRIVATE 仓库将先保存发布准备文档；源码上传与可运行发行版仍待审计阻塞项解决。仓库创建成功后补充地址。
+已创建 [DSAP-Toolkit 私有仓库](https://github.com/Jialong-Wang97/DSAP-Toolkit)，目前只保存发布准备文档；无权限的访问者无法查看。源码上传与可运行发行版仍待审计阻塞项解决。首次文档提交已从 GitHub 成功 clone，但 setup → launch → basic workflow 尚未通过。
 
 ## 推荐工作流程
 
