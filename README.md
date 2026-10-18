@@ -1,8 +1,8 @@
-# DSAP-Toolkit
+# Digital Subtraction Angiography Perfusion Imaging（DSA-PI）
 
 **发布准备中；当前不是可从 GitHub 独立安装的发行版。Research Use Only。**
 
-DSAP 是基于 MATLAB 的数字减影血管造影（DSA）灌注分析研究软件。正式英文全称待项目负责人确认；描述性暂译为 *Digital Subtraction Angiography Perfusion*，不能据此认定正式名称或作者信息。
+**Digital Subtraction Angiography Perfusion Imaging（DSA-PI）** 是基于 MATLAB 的数字减影血管造影（DSA）灌注分析研究软件，作者为 **王嘉龙**。现有代码、界面与历史文档中的 DSAP 名称暂时保留，GitHub 仓库仍名为 `DSAP-Toolkit`；本次命名确认不涉及程序重构。机构信息尚未提供，不作推定。
 
 ## 功能
 
@@ -77,11 +77,11 @@ CAVE AV 的动静脉并集使用 sigmoid 0.5 阈值，可能包含细血管，�
 
 ## 示例与限制
 
-`examples/README.md` 是 placeholder，没有真实患者 demo。未来优先提供 synthetic 输入及预期输出。已知发布阻塞包括许可证链、原创权属、依赖可复现安装、MAT 资源审查、正式名称/作者以及 clean-clone 测试；见 `RELEASE_CHECKLIST.md`。供血区类别映射有上游注释/代码不一致的历史证据，必须人工复核；可选 nnUNetv2 后端不能宣称已经验收。
+`examples/README.md` 是 placeholder，没有真实患者 demo。未来优先提供 synthetic 输入及预期输出。已知发布阻塞包括许可证链、原创权属、依赖可复现安装、MAT 资源审查以及 clean-clone 测试；见 `RELEASE_CHECKLIST.md`。供血区类别映射有上游注释/代码不一致的历史证据，必须人工复核；可选 nnUNetv2 后端不能宣称已经验收。
 
 ## Citation
 
-`CITATION.cff` 为待确认草稿，尚无正式作者、DOI、版本或发表年份承诺。发布前由权利人确认作者列表，补齐正式引用；使用第三方方法时同时引用原工作。
+引用信息已按作者确认更新至 `CITATION.cff`：王嘉龙，*Digital Subtraction Angiography Perfusion Imaging（DSA-PI）*。目前没有已发布版本、DOI 或正式发布日期，不能虚构。项目作者署名不取代 Su、CAVE 等第三方工作的原作者归属；使用相关方法时同时引用原工作。
 
 ## References
 

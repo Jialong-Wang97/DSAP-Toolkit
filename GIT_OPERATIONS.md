@@ -45,6 +45,8 @@ Non-Git checks: completed recursive inventory and bounded text scanning; read tw
 
 ## Remaining source-release procedure
 
+Metadata follow-up (2026-10-19): user confirmed DSA-PI's formal title and author 王嘉龙, and could not recall the original Su source archive. Documentation/CITATION only are updated; repository name, visibility, source quarantine and existing algorithms are unchanged. The update uses explicit-path staging, staged diff checks and a normal new commit/push after PRIVATE verification; no history rewriting.
+
 1. Authentication and the private documentation checkpoint are complete. Never supply a password/token to the assistant.
 2. Reconfirm root, CLI authentication, existing private remote and source release manifest. Do not recreate or change repository visibility.
 3. Complete source/privacy review and dependency preparation; replace temporary documentation-only quarantine with exact reviewed source exceptions. Do not force-add ignored files.

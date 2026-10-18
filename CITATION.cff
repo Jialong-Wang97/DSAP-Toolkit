@@ -1,11 +1,15 @@
 cff-version: 1.2.0
-message: "Draft citation metadata. Maintainer must confirm authors and formal project title before public release."
-title: "DSAP-Toolkit"
+message: "If you use this software, please cite it using this metadata and also cite the applicable third-party methods. Public release is pending license and provenance review."
+title: "Digital Subtraction Angiography Perfusion Imaging (DSA-PI)"
 type: software
-abstract: "MATLAB-based digital subtraction angiography perfusion research toolkit. Release preparation draft; authorship and licensing pending."
+authors:
+  - family-names: "王"
+    given-names: "嘉龙"
+repository-code: "https://github.com/Jialong-Wang97/DSAP-Toolkit"
+abstract: "MATLAB-based digital subtraction angiography perfusion research toolkit. Public release and licensing are pending; the private repository currently contains release-preparation documents."
 keywords:
   - digital subtraction angiography
   - perfusion
   - MATLAB
-# Intentionally no invented author, DOI, repository URL, license or release date.
-# Required authors metadata remains unresolved; not release-ready CFF.
+# Name and author confirmed by the maintainer on 2026-10-19.
+# Affiliation, ORCID, DOI, license, version and release date are not supplied.

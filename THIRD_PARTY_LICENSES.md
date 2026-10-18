@@ -4,6 +4,8 @@ Audit date: 2026-10-19. This is an evidence register, not a replacement license.
 All existing copyright notices and license files are preserved unchanged.
 Local records establish the following; unverified provenance remains a blocker.
 
+Maintainer clarification (2026-10-19): the project is named Digital Subtraction Angiography Perfusion Imaging (DSA-PI), authored by 王嘉龙. The maintainer does not recall the original repository/archive used for Su's core perfusion code. Exact historical provenance therefore remains unresolved; no candidate repository is promoted to a verified source and no third-party attribution is replaced by the project author.
+
 Local runtime metadata was inventoried separately: 37 Python distribution metadata records across the CAVE and territory runtime locations, with discovered license-file paths, are recorded in `reports/open_source_audit/runtime_license_inventory.json`. This local-only list is not a complete or validated SBOM and does not clear redistribution of bundled binaries.
 
 | Component / files | Classification and evidence | License / release decision |

@@ -2,6 +2,8 @@
 
 审计日期：2026-10-19（Asia/Tokyo）。结论：**NOT READY FOR PUBLIC RELEASE**。
 
+负责人随后确认正式名称为 Digital Subtraction Angiography Perfusion Imaging（DSA-PI），作者为王嘉龙；机构未提供。原有代码路径、DSAP 标识和 DSAP-Toolkit 仓库名保持不变。负责人不记得 Su 核心灌注代码最初的仓库/压缩包，故该部分仍归为第三方改编，精确历史来源与许可证待核实；作者确认不解除第三方权利限制。
+
 本次为全目录文件盘点、有限文本扫描、关键源文件/来源记录及许可证检查；不是对所有二进制、影像像素和历史数据完成脱敏认证。未修改既有核心算法、ROI Snapshot、保存生命周期或性能路径，未删除任何原项目文件，未重排现有目录。
 
 ## 范围与证据
@@ -23,7 +25,7 @@
 仅新建、未包含病例数据的准备文档和占位说明：
 
 - `README.md`、`OPEN_SOURCE_AUDIT.md`、`LICENSE_RECOMMENDATION.md`
-- `CITATION.cff`（明确为不完整草稿）、`CHANGELOG.md`、`CONTRIBUTING.md`
+- `CITATION.cff`（名称/作者已确认，无虚构版本或 DOI）、`CHANGELOG.md`、`CONTRIBUTING.md`
 - `THIRD_PARTY_LICENSES.md`、`RELEASE_CHECKLIST.md`、`GIT_OPERATIONS.md`
 - `.gitignore`、`docs/screenshots/README.md`、`examples/README.md`
 
