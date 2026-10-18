@@ -992,7 +992,7 @@
   {
     "path": "scripts/install_cave_dependency.py",
     "classification": "original DSAP source; authoring evidence in docs/PERFUSION_BLOCKER_FILE_REVIEW.md",
-    "sha256": "ce8a17fca292f0e6593d04c5334dc1373395d13a036c8c17fce3ee40be501417",
+    "sha256": "95173dd1c09a9561a28d308d0db57f02761a9158bfad04db2509366222337634",
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
   },
   {

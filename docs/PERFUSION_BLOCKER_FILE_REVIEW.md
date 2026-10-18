@@ -94,6 +94,7 @@ separately; file-level distribution clearance is not a runtime pass.
 - [Official model record](https://zenodo.org/records/15641964)
 
 Local authoring-history evidence was inspected without publishing conversation
-contents, clinical paths or images. Su's live GitLab endpoint returned a TLS
-EOF on recheck; the earlier pinned source and commit evidence remain available
-in the private audit record. This is not represented as a successful live fetch.
+contents, clinical paths or images. An initial Windows HTTPS request to GitLab
+returned EOF; the subsequent standard Python HTTPS request succeeded and
+confirmed exactly the three MATLAB files in the pinned snapshot, with no
+LICENSE or README. The response is retained in the private audit record.
