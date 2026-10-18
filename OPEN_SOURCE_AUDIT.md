@@ -1,5 +1,13 @@
 # Open-source audit — reviewer candidate
 
+## Focused update
+
+`scripts/cave_trial.py` is now eligible as modified third-party source with
+the complete original license and attribution. Its old case-specific plot
+title was generalized; no patient identifiers or images are included. Original
+helpers and worker/probe are restored. Official CAVE source/weights stay external.
+See docs/PERFUSION_BLOCKER_FILE_REVIEW.md for the exact remaining core hold.
+
 ## A. Eligible files
 
 Original-source candidates are enumerated by relative path and SHA256 in

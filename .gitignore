@@ -1,4 +1,4 @@
-# Reviewed publication allowlist. Unlisted local files remain on disk.
+# Exact reviewed release allowlist; unlisted files stay local.
 /*
 !/AutoAIF/
 /AutoAIF/*
@@ -6,6 +6,10 @@
 /docs/*
 !/examples/
 /examples/*
+!/licenses/
+/licenses/*
+!/scripts/
+/scripts/*
 !/src/
 /src/*
 !/tests/
@@ -43,9 +47,12 @@
 !/SOURCE_MANIFEST.json
 !/THIRD_PARTY.md
 !/THIRD_PARTY_LICENSES.md
+!/centered_temporal_gaussian_filter.m
 !/computeRoiDistributionMetrics.m
+!/detect_aif_onset.m
 !/docs/CORE_LICENSE_REVIEW.md
 !/docs/GPL_DISTRIBUTION_PLAN.md
+!/docs/PERFUSION_BLOCKER_FILE_REVIEW.md
 !/docs/PERMISSION_REQUEST_DRAFT.md
 !/docs/screenshots/README.md
 !/dsap_activity_state.m
@@ -194,8 +201,16 @@
 !/examples/README.md
 !/examples/make_synthetic_example.m
 !/examples/run_synthetic_example.m
+!/gausswin.m
+!/licenses/CAVE_ADAPTER_LICENSE.txt
 !/run_interactive_perfusion_remove_large_vessels.m
 !/scan_dicom_folder_sequences.m
+!/scripts/cave_source_manifest.json
+!/scripts/cave_trial.py
+!/scripts/cave_worker.py
+!/scripts/dsap_environment_probe.py
+!/scripts/install_cave_dependency.py
+!/scripts/requirements-cave.txt
 !/segment_large_vessels_cave.m
 !/setup_DSAPI.m
 !/src/geometry/callOriginalVTI.m
@@ -211,7 +226,6 @@
 !/src/geometry/vesselGeometryTable.m
 !/tests/release/test_reviewer_package.m
 
-# Local data, credentials, models, results and compiled artifacts.
 **/node_modules/
 **/__pycache__/
 **/.venv*/

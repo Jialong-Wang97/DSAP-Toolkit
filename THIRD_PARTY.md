@@ -1,7 +1,8 @@
 # Third-party dependencies
 
-Status: reviewer preparation, 2026-10-19. No third-party implementation, model,
-runtime or private validation resource is bundled in this candidate. This is
+Status: reviewer preparation, 2026-10-19. The adapted `scripts/cave_trial.py` is included under the unchanged CAVE
+modified MIT + Commons Clause terms in `licenses/CAVE_ADAPTER_LICENSE.txt`.
+Official CAVE source, model, runtime and private validation resources remain external. This is
 a conservative distribution decision, not a claim that all redistribution is
 forbidden. Original DSAP MATLAB wrappers are included; they are not the upstream
 implementations. Do not remove upstream notices when installing dependencies.
@@ -9,7 +10,7 @@ implementations. Do not remove upstream notices when installing dependencies.
 | Component / author | Use | Bundled | Original terms / classification | Installation |
 |---|---|---|---|---|
 | Su perfusionDSA, derived from liob/non-parametric_deconvolution | Required TSVD perfusion | No | **C: UNRESOLVED** for the exact adapted DSAP file. Earlier upstream is GPLv3; Su snapshot has no separate license. | See Core below; no confirmed public source for the exact compatible adapter. |
-| CAVE / Ruisheng Su et al. | Required artery/vein segmentation in the current perfusion workflow | No | **B: external**; modified MIT with Commons Clause / non-commercial wording; not DSAP GPL. Adapter clearance remains **C: UNRESOLVED**. | Pinned source and official weights below; obtaining these alone does not install the DSAP adapter. |
+| CAVE / Ruisheng Su et al. | Required artery/vein segmentation in the current perfusion workflow | No | **B: external**; modified MIT with Commons Clause / non-commercial wording; not DSAP GPL. The DSAP adapter is now included with file-specific attribution/terms. | Pinned source and official weights below; obtaining these alone does not install the DSAP adapter. |
 | VTI / Maz M. Khansari; arc_length credits John D’Errico | Optional tortuosity index | No | **B: external**; pinned GitHub source has non-commercial permission. Embedded arc_length has BSD-2-Clause notice. File Exchange advertises BSD-3-Clause but archive identity has not been verified. | Install pinned `.m` files and notices under `third_party/vessel_tortuosity_vti/`. Other geometry works without VTI. |
 | autoTICI territory model / Ruisheng Su et al. | Optional ACA/MCA prediction | No | **B: external** source/model with Commons Clause terms; exact DSAP adaptation **C: UNRESOLVED** | Official model below; compatible inference/config bundle not yet distributable. Do not rename or convert to bypass terms. |
 | MATLAB / MathWorks; Image Processing Toolbox | Required GUI, DICOM and image operations | No | **B: external**, proprietary user license | Install MATLAB R2024b Update 2 with Image Processing Toolbox via MathWorks. JVM required. |
@@ -22,9 +23,9 @@ implementations. Do not remove upstream notices when installing dependencies.
 Provenance: [Su snapshot](https://gitlab.com/radiology/igit/q-maestro/perfusiondsa/-/tree/2adaa974e4e46e9e4ef2535ba515ed49329706bc)
 and [earlier GPLv3 upstream](https://github.com/liob/non-parametric_deconvolution/tree/67ca5c1f85e8912119b267e7aeb56085068ae90a).
 The required DSAP function is `modelfree_deconvolution_corrected.m` in the project
-root. It is modified third-party code, not original DSAP code. Associated
-`centered_temporal_gaussian_filter.m`, `gausswin.m`, and `detect_aif_onset.m` are
-also held out pending provenance confirmation. **Do not rename an upstream
+root. It is modified third-party code, not original DSAP code. The direct project helpers `centered_temporal_gaussian_filter.m`, `gausswin.m`
+and workflow helper `detect_aif_onset.m` are now included as original DSAP code;
+see the file-level evidence in `docs/PERFUSION_BLOCKER_FILE_REVIEW.md`. **Do not rename an upstream
 function and assume numerical/interface equivalence.** The maintainer must
 clear and supply the exact compatible files with their original attribution
 before a reviewer can complete perfusion. No replacement algorithm is supplied.
@@ -38,10 +39,26 @@ Required AV weight: `third_party/CAVE_DSA/checkpoints/sequence_av_sigmoid_image5
 SHA256: `c90b7e066e32039cf61352993a9c57784caac6aa1fdb042dc4801df6dc729651`.
 Preserve the upstream license and dependency notices. A Git LFS pointer is not a weight file.
 
-DSAP also requires `scripts/cave_worker.py` and `scripts/cave_trial.py`. These
-contain DSAP-specific integration / adapted preprocessing and are not supplied
-by simply cloning CAVE. Their distribution clearance and reproducible install
-are **UNRESOLVED**. This prevents full reviewer workflow acceptance today.
+DSAP now includes `scripts/cave_worker.py` (original glue, GPL-3.0-only) and
+`scripts/cave_trial.py` (modified CAVE preprocessing/inference adapter, upstream
+modified MIT + Commons Clause). Do not apply DSAP's GPL grant to the latter.
+The exact license and changes are documented in `docs/PERFUSION_BLOCKER_FILE_REVIEW.md`.
+
+From a new checkout, using an independently installed Python 3.12 x64:
+
+```powershell
+py -3.12 scripts/install_cave_dependency.py --accept-cave-terms
+```
+
+Read `licenses/CAVE_ADAPTER_LICENSE.txt` and the linked official asset terms
+before selecting this flag. If the Python launcher is not installed, invoke
+your Python 3.12 executable with the same script/arguments. The script obtains
+the fixed official source/weight, checks SHA256, creates `.venv_cave`, installs
+the declared versions and runs the environment probe. It refuses mismatched
+existing files and never imports a developer runtime. `--assets-only` skips
+Python setup. Downloaded upstream notices and original headers are retained.
+This is dependency setup, not a grant of commercial rights or a resolution of
+the separate Su-core hold. Fresh-install results are recorded in the checklist.
 
 ## VTI — optional
 
@@ -71,9 +88,10 @@ No Python is needed for the included synthetic geometry example. CAVE/territory
 need Python 3.12 x64 and a freshly created project-local `.venv_cave/` (Windows
 executables under `Scripts/`), torch 2.6.0 CPU, NumPy, SciPy, scikit-image,
 pydicom, Pillow and pylibjpeg decoding packages. GPU is not required by the
-existing DSAP CPU integration. A validated public package lock / install path
-for the complete adapters remains pending; no command is advertised as a
-working full installer yet. `setup_DSAPI` checks file availability and Python
+existing DSAP CPU integration. Direct package versions are listed in `scripts/requirements-cave.txt` and
+installed by the CAVE-specific command above. Full DSAP readiness is still
+blocked on `modelfree_deconvolution_corrected.m`; optional components are not
+required by that installer. `setup_DSAPI` checks file availability and Python
 imports when the external interpreter exists; it does not silently install
 dependencies or accept their licenses.
 

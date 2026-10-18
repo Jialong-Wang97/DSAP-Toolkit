@@ -7,8 +7,9 @@ repository name are retained.
 **Research Preview preparation — NOT READY FOR REVIEWER RELEASE.**
 This candidate now includes original source, setup checks and a fully synthetic
 example. The example can exercise GUI import and original geometry/export.
-**It cannot yet run the full perfusion workflow:** the exact Su-derived core
-and CAVE integration have unresolved distribution/install requirements.
+**It cannot yet run the full perfusion workflow:** the exact Su-derived core still lacks the specific licensing evidence
+described in [file-level review](docs/PERFUSION_BLOCKER_FILE_REVIEW.md).
+The project helpers and CAVE adapters are now included with their correct terms.
 Do not mistake a successful partial smoke test for CBF/CBV/MTT/Tmax validation.
 See [release checklist](REVIEWER_RELEASE_CHECKLIST.md).
 
@@ -26,7 +27,7 @@ is explicitly reported; no substitute scientific algorithm is used.
 |---|---|
 | Setup, open workspace, import synthetic multiframe DICOM | Included; tested as recorded in checklist |
 | Original centerline geometry and curvature; export geometry | Included |
-| ROI/AIF workflow followed by perfusion and CBF/CBV/MTT/Tmax | Blocked on exact core and CAVE adapter delivery |
+| ROI/AIF workflow followed by perfusion and CBF/CBV/MTT/Tmax | Blocked on exact Su-derived core permission; CAVE installation is separate |
 | VTI | Optional external; otherwise marked uncomputed |
 | ACA/MCA prediction / Legacy import | Optional external; unavailable until separately configured |
 
@@ -76,6 +77,8 @@ fig = dsap_start;
 ```
 
 In the workspace choose the file `outputs/synthetic_example/SYNTHETIC_DSA.dcm`.
+The synthetic example is provided only to verify software execution and is not a clinical validation dataset.
+
 It is generated from mathematical shapes/time curves, not a real patient or
 anonymized clinical image. The command above reads it and runs the unchanged
 original geometry module on its generated centerline, then exports results.
@@ -83,7 +86,7 @@ See [examples/README.md](examples/README.md) for steps and limitations.
 
 **Starting perfusion currently reports a missing dependency.** This is an
 unfinished release requirement, not a successful minimum perfusion analysis.
-Once the exact authorized dependencies are delivered, the intended workflow is:
+CAVE setup is documented in [THIRD_PARTY.md](THIRD_PARTY.md). Once the exact authorized core is delivered, the intended workflow is:
 select DSA → verify direction/polarity/time → vascular preparation → review
 AIF, tissue ROI and cranial limits → confirm ROI Snapshot → calculate perfusion
 → inspect curves/maps → save core results → export.

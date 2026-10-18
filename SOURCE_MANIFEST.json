@@ -72,9 +72,21 @@
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
   },
   {
+    "path": "centered_temporal_gaussian_filter.m",
+    "classification": "original DSAP source; authoring evidence in docs/PERFUSION_BLOCKER_FILE_REVIEW.md",
+    "sha256": "17eb57d0871aa2e512b8a549d890f3934cdaf7677e2c4f598144dc2d2e040141",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
     "path": "computeRoiDistributionMetrics.m",
     "sha256": "3ce0aaa8d067fc3d2c10f2a299975db8724ebfefca906c548f8ed340d571da5f",
     "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "detect_aif_onset.m",
+    "classification": "original DSAP source; authoring evidence in docs/PERFUSION_BLOCKER_FILE_REVIEW.md",
+    "sha256": "6760f7dd64b1aefcc0fdaf38ba05c294eac45c82677adf48383d7e9d9f9600fa",
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
   },
   {
@@ -937,7 +949,7 @@
   },
   {
     "path": "examples/make_synthetic_example.m",
-    "sha256": "a94086bb42d9dc1cd60621b804e7fed1d8231f2bbec48ccb206cf34ed7f833ba",
+    "sha256": "9a37af05fac8f23211682a586ca989a3e31d83fc25376c662c2bf88b187f2150",
     "classification": "original DSAP source (maintainer authorization); external implementations excluded",
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
   },
@@ -945,6 +957,12 @@
     "path": "examples/run_synthetic_example.m",
     "sha256": "c209fefef38b593058508a9b453d053a5bff26f20cfd11b993afc908b4b515b0",
     "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "gausswin.m",
+    "classification": "original DSAP source; authoring evidence in docs/PERFUSION_BLOCKER_FILE_REVIEW.md",
+    "sha256": "47a3e3dc11c3c8be376a52c742d7a5afd3ec70092690ca1aaae0608e8e88e947",
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
   },
   {
@@ -957,6 +975,24 @@
     "path": "scan_dicom_folder_sequences.m",
     "sha256": "6716a518f01bfd2bbbec02f93170da58710070f38941d3d4c09d85f6208c5c6e",
     "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "scripts/cave_worker.py",
+    "classification": "original DSAP source; authoring evidence in docs/PERFUSION_BLOCKER_FILE_REVIEW.md",
+    "sha256": "b345ab7d61936728a57acc4583258311a5319e15e398b883faf63cba03f06172",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "scripts/dsap_environment_probe.py",
+    "classification": "original DSAP source; authoring evidence in docs/PERFUSION_BLOCKER_FILE_REVIEW.md",
+    "sha256": "1fb48c442e14ffdce3edf962a6cc98db4b69bd0e225d4f7c50a8b35711a34ee7",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "scripts/install_cave_dependency.py",
+    "classification": "original DSAP source; authoring evidence in docs/PERFUSION_BLOCKER_FILE_REVIEW.md",
+    "sha256": "ce8a17fca292f0e6593d04c5334dc1373395d13a036c8c17fce3ee40be501417",
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
   },
   {

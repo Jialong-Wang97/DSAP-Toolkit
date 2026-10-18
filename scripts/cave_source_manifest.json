@@ -1,0 +1,47 @@
+[
+  {
+    "path": "LICENSE_Modified MIT License for Non-Commercial Use.md",
+    "sha256": "dea923d52c3559d7e7f640ca926a8deae1e4c39a6ba196af7755d420410a14e3",
+    "git_blob": "067fca88344e3121e6d42294736cb8b3e2e1ab14"
+  },
+  {
+    "path": "unet/__init__.py",
+    "sha256": "24f9b5f58207d77709dac1edded0d7be2b441fe8824514493533687346d5b713",
+    "git_blob": "73bb2f1ef03621202f721f1408725947ea506869"
+  },
+  {
+    "path": "unet/convgru.py",
+    "sha256": "56043be527d0d3bdeb5f6cdba36b9b246170a197af5e873a63d7f9412aeb37ad",
+    "git_blob": "b01a703ecf2c01cbd63252be8b0fa89a7f7c47d3"
+  },
+  {
+    "path": "unet/convlstm.py",
+    "sha256": "64be927723c8132f604bc45d144e7a08ebdb5566e9d8c49426b76ac071142206",
+    "git_blob": "4a6df1a9f82dfc7ef8c9db5230f101ed2902fa79"
+  },
+  {
+    "path": "unet/temporal_transformer.py",
+    "sha256": "6c2962391ef3aa199a56ee10cddd78414dbba7bbaef49a1614ece81fe228e749",
+    "git_blob": "0bfeac8bc37f27089248b1b7d20ca0694a0518f6"
+  },
+  {
+    "path": "unet/temporal_transformer_unet_model.py",
+    "sha256": "ecad9bd685b541685c27c620404e4c877de9aed0ace15ed8e55e1f397dafebff",
+    "git_blob": "126f151772fcb61b6ed8997dda680ed5e7b18937"
+  },
+  {
+    "path": "unet/temporal_unet_model.py",
+    "sha256": "eea6ca73c020821c8d68907f0c9d9558ba8425d098a1126ccc4d21f9d9917eba",
+    "git_blob": "166b108205494598aa98a77e60b8305bbc6ed8b7"
+  },
+  {
+    "path": "unet/unet_model.py",
+    "sha256": "2e71e158c8d0780248fe02bfeaefa68b81c28f88a3b5ecc14c2ba1be7efcbd8f",
+    "git_blob": "efa7108c8467b6f8153e1666aeb837dcda2e4ad4"
+  },
+  {
+    "path": "unet/unet_parts.py",
+    "sha256": "620f340a66079401564d9336b9bc6cf1133ea4e0c304a5a276452415bf889177",
+    "git_blob": "9cfd33eeafbaa2f413ae36b8fc7148b45bd89454"
+  }
+]

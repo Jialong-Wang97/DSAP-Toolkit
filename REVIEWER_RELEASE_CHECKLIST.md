@@ -5,13 +5,32 @@
 Current candidate: v0.1.0 Research Preview preparation, not a published release.
 Checked items refer to the tested original-source subset, not full perfusion. Unchecked items remain blockers. Privacy/secret checkmarks record the bounded scans described below, not a guarantee for future contributions.
 
+## Focused blocker update (supersedes the earlier blocker wording below)
+
+- **Still blocking:** exactly `modelfree_deconvolution_corrected.m`, specifically
+  the unlocated license grant for Su's additions in the 2023 MATLAB source.
+  Earlier GPL code is identified and permissible under GPL; its grant is not
+  a substitute for evidence about Su's additions. See
+  [file-by-file origin/change review](docs/PERFUSION_BLOCKER_FILE_REVIEW.md).
+- **Restored:** centered temporal filter, Gaussian window and AIF onset helper.
+  Scientific statements unchanged; only license comments added.
+- **CAVE adapters included:** original `cave_worker.py` and deployment probe;
+  adapted `cave_trial.py` retains upstream copyright and modified MIT + Commons
+  Clause. It is not relicensed GPL. Official network source/weights remain
+  external with fixed revision and verified hashes in a CAVE-only installer.
+- Fresh CAVE installation validation: pending in this update; not equated with
+  the complete DSAP workflow. No full perfusion test is claimed while the core
+  remains excluded.
+- VTI, territory and Legacy remain optional and are not release blockers.
+- No Public change, tag, Release, core rewrite or optional-module work.
+
 ## Repository
 
 - [x] Final clean repository / remote revision verified
 - [x] Final tracked content and history scan: no PHI
 - [x] Final tracked content and history scan: no secrets
 - [x] Final source scan: no personal absolute paths
-- [x] Restricted/uncertain upstream code and all models excluded by exact allowlist
+- [x] Uncertain core and all models excluded; adapted CAVE source retains its original terms
 - [x] Private visibility retained; no public/release command authorized by current instruction
 
 ## Documentation
@@ -49,7 +68,7 @@ Checked items refer to the tested original-source subset, not full perfusion. Un
 
 THIRD_PARTY.md supplies exact pinned versions, authors, URLs, filenames and limitations.
 
-## Actual blockers
+## Earlier blocker assessment (superseded by focused update)
 
 1. **UNRESOLVED:** exact Su-derived `modelfree_deconvolution_corrected.m` and
    associated helper provenance/distribution. Earlier GPL lineage is evidence,

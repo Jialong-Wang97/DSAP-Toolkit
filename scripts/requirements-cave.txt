@@ -1,0 +1,11 @@
+# Versions used by the existing DSAP CPU adapter. No network/model changes.
+# Install into a fresh Python 3.12 x64 venv; do not copy a developer venv.
+torch==2.6.0
+numpy==2.5.1
+scipy==1.18.0
+scikit-image==0.26.0
+pydicom==3.0.2
+Pillow==12.3.0
+pylibjpeg==2.1.0
+pylibjpeg-libjpeg==2.4.0
+matplotlib==3.11.0
