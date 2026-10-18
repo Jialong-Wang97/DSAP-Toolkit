@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Draft citation metadata. Maintainer must confirm authors and formal project title before public release."
+title: "DSAP-Toolkit"
+type: software
+abstract: "MATLAB-based digital subtraction angiography perfusion research toolkit. Release preparation draft; authorship and licensing pending."
+keywords:
+  - digital subtraction angiography
+  - perfusion
+  - MATLAB
+# Intentionally no invented author, DOI, repository URL, license or release date.
+# Required authors metadata remains unresolved; not release-ready CFF.
