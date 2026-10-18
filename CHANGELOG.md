@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased — v0.1.0 Research Preview preparation
+
+- Include reviewed original MATLAB source under GPL-3.0-only.
+- Add project-relative setup/launch and explicit external-dependency errors.
+- Add a generated synthetic DICOM and partial geometry/export workflow.
+- Document unresolved core/CAVE delivery; no complete perfusion test claimed.
+- Preserve algorithms, Snapshot and save/lifecycle logic; no upstream resources deleted.
+- Private repository retained; no tag/Release created.
+
+## Earlier preparation
+
 ## Unreleased — 2026-10-19
 
 - Confirmed the project title as Digital Subtraction Angiography Perfusion Imaging (DSA-PI) and author as 王嘉龙; updated citation metadata while retaining existing code and repository names.

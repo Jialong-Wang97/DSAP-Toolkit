@@ -1,3 +1,5 @@
+> Historical assessment. Current scope/status is in ../THIRD_PARTY.md and ../REVIEWER_RELEASE_CHECKLIST.md. The latest user instruction requires renewed explicit permission before Public visibility or a formal Release. Earlier authorization statements below are superseded.
+
 # DSA-PI GPL distribution assessment
 
 Date: 2026-10-19. Decision recorded: the maintainer accepts commercial use and requests assessment of a GPL route. The earlier requirement for a blanket non-commercial restriction is superseded for code the maintainer can license. Third-party conditions are unchanged. Public visibility is already authorized once substantive checks pass.

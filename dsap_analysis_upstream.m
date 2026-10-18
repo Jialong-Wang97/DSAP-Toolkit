@@ -1,0 +1,9 @@
+function signature=dsap_analysis_upstream(result,source)
+% R1 cannot change any upstream setting, AIF, scope, vessel correction or time.
+    settings=result.settings;settings=rmfield(settings,'TissueROICount');
+    value=struct('SourceSHA256',source.SHA256,'Settings',settings,'AIF',result.aif_mask, ...
+        'Limits',result.cranial_limits,'Band',result.cranial_limit_mask, ...
+        'Vessels',result.large_vessel_mask,'Features',result.vessel_features, ...
+        'OriginalTime',result.original_time_seconds,'Time',result.time_seconds);
+    signature=dsap_analysis_signature(value);
+end

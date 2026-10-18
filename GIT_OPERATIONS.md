@@ -63,3 +63,15 @@ Metadata follow-up (2026-10-19): user confirmed DSA-PI's formal title and author
 6. Inspect remote tree and commit, verify PRIVATE, scan tracked content again, review README rendering and license completeness. Clone to a fresh directory and run the documented setup/launch/synthetic basic workflow.
 
 Do not change visibility or create a formal release without explicit user approval.
+
+## Reviewer-source preparation — current instruction
+
+The latest request supersedes earlier Public consent: remain PRIVATE and do
+not create a formal Release until the user explicitly permits it again.
+Read-only `git status`, `git diff --check`, `git check-ignore`, `git ls-files`
+and REST `gh api repos/Jialong-Wang97/DSAP-Toolkit` were run; the fresh REST
+response confirmed PRIVATE/main. The temporary EOF issue has cleared.
+Only exact reviewed text paths are staged; source guards do not change science,
+ROI Snapshot or save/lifecycle implementations. Publication of the missing
+third-party core/adapters is not claimed. Follow-up commands/results below
+record the normal source commit, private push and fresh-clone validation.

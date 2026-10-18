@@ -1,3 +1,5 @@
+> Historical assessment. Current scope/status is in ../THIRD_PARTY.md and ../REVIEWER_RELEASE_CHECKLIST.md. The latest user instruction requires renewed explicit permission before Public visibility or a formal Release. Earlier authorization statements below are superseded.
+
 # Core perfusion provenance and publication decision
 
 Date: 2026-10-19. Project: Digital Subtraction Angiography Perfusion Imaging (DSA-PI), author 王嘉龙.

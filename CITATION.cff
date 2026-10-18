@@ -1,15 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using this metadata and also cite the applicable third-party methods. Public release is pending license and provenance review."
+message: "If you use this software, please cite this metadata and the third-party methods used. Research Preview preparation; no formal release yet."
 title: "Digital Subtraction Angiography Perfusion Imaging (DSA-PI)"
 type: software
 authors:
   - family-names: "王"
     given-names: "嘉龙"
 repository-code: "https://github.com/Jialong-Wang97/DSAP-Toolkit"
-abstract: "MATLAB-based digital subtraction angiography perfusion research toolkit. Public release and licensing are pending; the private repository currently contains release-preparation documents."
+license: GPL-3.0-only
+abstract: "MATLAB-based DSA perfusion research toolkit. Original-source candidate; complete reviewer workflow remains blocked on external dependencies."
 keywords:
   - digital subtraction angiography
   - perfusion
   - MATLAB
-# Name and author confirmed by the maintainer on 2026-10-19.
-# Affiliation, ORCID, DOI, license, version and release date are not supplied.

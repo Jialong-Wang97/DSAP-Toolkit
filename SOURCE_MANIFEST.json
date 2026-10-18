@@ -1,0 +1,1046 @@
+[
+  {
+    "path": "AutoAIF/build_centerline_graph.m",
+    "sha256": "e51289a25986e5fb1289111d1e1f1d237d39a5c86b44e7797879520ce60d4b35",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/calculate_AIF_score.m",
+    "sha256": "2eecdd55d88f7be7a0e87b1db14232b02aa39c101a0a678d9c0a29047ce3e301",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/extract_TDC.m",
+    "sha256": "706f427442edab91eeb7f9ea2e51365ba0ad89bbec93d0bf2b1b71e57a8e732b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/find_ICA_segment.m",
+    "sha256": "74dac49f1ec859136beeafd5c4bb4e9721e6bb6a781ac86310333c96d5c53a3f",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/generate_candidate_ROI.m",
+    "sha256": "b3992076342f8ae46f8e3bca309dad9466cdada8814bae0ac889221d59223bca",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/load_AIF_source.m",
+    "sha256": "4bf85a8915f9deb0c020cd1d8290f32058f93280007af85813ca0c509e1436ba",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/prepare_lumen_geometry.m",
+    "sha256": "b82f3b963d3d2df830709aeabc7ab3877ae58632315bfc922967ac3e4bf72eee",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/resolve_AIF_vascular.m",
+    "sha256": "0d7286fd4b5516f367549183fac85001f795adfda7641cafe13437f920214b12",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/save_AIF_report.m",
+    "sha256": "d880094d66c826642c7e0d283a3c18c5c7b4f5332828f166d93305392bf749e2",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/select_best_AIF.m",
+    "sha256": "c202524bfbf24ec4ff1d3115df8f08456b0391c09fd9191304a581df0ba31d71",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/select_lumen_AIF.m",
+    "sha256": "2e87ab672e04540034bb9839a76c0c46475c3bfe206272f6671eed1f280bb2b1",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "AutoAIF/visualize_AIF_result.m",
+    "sha256": "bbe381a097fa0f655a0d665dae92d67a0fb4d2e4de72311f18a58a56b6003a28",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "computeRoiDistributionMetrics.m",
+    "sha256": "3ce0aaa8d067fc3d2c10f2a299975db8724ebfefca906c548f8ed340d571da5f",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_activity_state.m",
+    "sha256": "454b9ceea1f65bcb2f999a1c7ef228257bcfea50feb07903b5ed46831669555e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_add_roi_distribution.m",
+    "sha256": "d4aee6fe3b3980241952ea29806c32f961f488bbf130cb035053efa02dd9b8e5",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_analysis_code_signature.m",
+    "sha256": "386640d99193281ca3385cbdb71e16fb77c710f90f057aa2d0ad20ef547d3a9b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_analysis_plan.m",
+    "sha256": "b528334530609d396d4b9bf49f70f6a44d147119fa29beeb5cc7edc15e1f4988",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_analysis_session.m",
+    "sha256": "a744d58e4520f3aff1a57a33ee196ebd131f47ea825f7af4ef595640ed79dcb5",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_analysis_signature.m",
+    "sha256": "e89ddb3e37081ee8225fe1d38de4379adaae89b97734fc46eb07d83733295e61",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_analysis_upstream.m",
+    "sha256": "5b1ddaf76dfd7bd208c49f2292e5feeba1995a875eb2b8aa33e7e183eaa6d197",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_apply_cave_corrections.m",
+    "sha256": "36ff1707bdf0a8d74e90bb95db81f5f8082bdb2ee2553da31e02743341333115",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_attach_roi_distribution.m",
+    "sha256": "ec0e49e6e9f8eb02f99d49d89567fa94723dcb3599d398c65caba96c064f98c3",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_bind_analysis_controls.m",
+    "sha256": "c00aa34161c846c1362693237c233f69b032061129047422c479125ffec57f41",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_brush_patch.m",
+    "sha256": "0ecc8c14ddce18dd71fa5330612b764beea92d1a53da3e625683844f3d15b59f",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_build_roi_snapshot.m",
+    "sha256": "43db214efdd0c6b8ee2e007a148db0dda9d7a05151a9fae91dfcd50475ddd6d5",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_build_summary_table.m",
+    "sha256": "34532dd4bf01ccd44f376dd036aa7891706e29b8ef446d255c87e22b69dc1eed",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_cancel_interactive_figure.m",
+    "sha256": "fb31c7227693c52aa19d090065e64e053db66b4e7255e0630be0f3193ff6b989",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_cave_full_field.m",
+    "sha256": "5f3511b7b892d8f08d79377a7c7014428d8f54b15884311c9d51a70845750895",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_cave_production_review.m",
+    "sha256": "5aa446fa3e5a7cf09832345cfa72cf883d8beb05a7ff9da32715015b5e481688",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_cave_result_view.m",
+    "sha256": "f04c5cb5c543d098eafaa94cf85e149a7b4d729320c5e6da35cb1ebb5efbb6e0",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_cave_vessel_rois.m",
+    "sha256": "80a0f70893e6abe0a9272f09f279c71684e0d653842439ef268fac4b0d8f8953",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_classify_signal_quality.m",
+    "sha256": "cb875b738b326a95caf4b0118ba56ff3fd690c6f0aec0869d0a778a03e5bddb3",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_confirm_roi_overview.m",
+    "sha256": "4902ec710870071bb8e8a04bdad07b56315d4c53b4e8cc35cde11b6427952064",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_curve_view.m",
+    "sha256": "420310b1bd9fcc87dc30d232e6c1ec814231a884c9431614d2108c6918e21003",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_desktop_entry.m",
+    "sha256": "e8bfc041004fc5c55893b0c121b2bef418fab01f8b80abdc3427eb123c70a3fe",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_distribution_options.m",
+    "sha256": "0187adaed5313bbb71d2cde29cd6250327984b9e7117a36810191887f0ef71ad",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_distribution_percentile.m",
+    "sha256": "8438562bcf4aa8623f2a3a673107bc2f14e8d40fead6f7a71c2d560f41f283df",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_distribution_pixels.m",
+    "sha256": "6df05768fede7114e959a10b14d5c4baa26167eb39f6beec37a65407897a1991",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_distribution_roi_input.m",
+    "sha256": "b28b451b70a2d6181906f5e1ef812d15a4f50643f8ecdc394cb1af3be393a67e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_edit_partition.m",
+    "sha256": "cff6afc5b47150081ef2c6b9c5d784f479e20b6ad14404ab95047882cb7f79a3",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_edit_tissue_callback.m",
+    "sha256": "476ff52c08a340c3420dff44dbe9420b0def9aae76770496e966e17bdef13a41",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_environment_check.m",
+    "sha256": "2a29c36df6a50146f86f8b611409e55002ebb71c0b97536ba55ea7de7930c84a",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_estimate_baseline_noise.m",
+    "sha256": "a388de949b394d5e34554598a3add18f356b9d218272152d025239e5ecf08bdd",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_cave.m",
+    "sha256": "f08e2c434510ef837a4000c1bf654f8d1fb92c93597d4d73bcc56b59fc777a0d",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_mca_training.m",
+    "sha256": "9c9301744ccf08a0a98e11040a707fd64bd11a27d9af9aa107e4af1e2086655e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_parameter_tables.m",
+    "sha256": "97a1d3bc6235fbd9edda4e6eefd65e69d0b037570ecbb25c3b2d737f67169301",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_partition.m",
+    "sha256": "e1a2661926446b33ca62f9b9d735a03de8d792291a62d63c5f216e339f760939",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_perfusion_maps.m",
+    "sha256": "afa117f7d757bd60865b30085dc471ae95fb8107beabd4b8e1e17905b5afe32b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_perfusion_view.m",
+    "sha256": "76b1426b1966e34e0da98d04c4994d3861a24df998f8bbed8865eeb34a387fb7",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_roi_distribution.m",
+    "sha256": "8d15c6741cb1b632ec602cf90abc3df8129fbf7e3ccc2a4c264ea289a48a08f3",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_signal_quality.m",
+    "sha256": "d23b62deb1e3973fbeca23166a22a5ec6be364fbf87e936e89e69fc88998c7f1",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_timeslice.m",
+    "sha256": "087690b833a13a2a759e728076380ed1496ede218b5e58e88fa13c5d566117ac",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_export_vessel_rois.m",
+    "sha256": "53282bbf0689e3da03acf40a73ce03716b964bc03fb77cdbffaea7ec98371c87",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_finish_cine_preview.m",
+    "sha256": "bf7faf8be4ff46d7a3a0893c29ca3450442bf6f2e95ea152a339bb8dcef6d106",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_full_export.m",
+    "sha256": "2e5efaad84e4238a6c3c367070bc27cfcd79717698d35a6780a85c10ed1b0c05",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_full_export_callback.m",
+    "sha256": "163870206310b0534926c9fa39c1d49b35045c9244ea8c1a08796c08b4ad1d45",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_geometry.m",
+    "sha256": "d1d6724eac3c31ca56e45e169c18442b51b106e1f8d15554920de52b532918c5",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_imported_statistics.m",
+    "sha256": "70959724963b4bfd4761a9b399502c944c5a46839cbb35de8f5c572831cb79f4",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_legacy_observable_profile.m",
+    "sha256": "cfe86996dfe82d357c58bf824a471021216bf240c2a1fe6f33761fa8168fa134",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_load_result.m",
+    "sha256": "64f0f849b60efeff556a7d2157c32b1f1c6a10d33b83fdf72a2c44cd3d69277d",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_manual_roi_editor.m",
+    "sha256": "44777a94ed34fc7e5434123a8bcf6c339ea96dda806445119969533e38c45070",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_mip_foreground.m",
+    "sha256": "33b9a1f85b4eb5f91f6f89064f8eb57bb1fc438c3d73794026a047080bacfdd3",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_open_results.m",
+    "sha256": "7de62e352460a408f857eaea6fff226f35c6de70b6dd157f9b7bfe63933c1616",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_orientation_compare.m",
+    "sha256": "d21d8b20fc65269f396e9b290bb8110b7f0a90cb42fbbe4c94d75417e7ecb214",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_orientation_fixture.m",
+    "sha256": "d532b1b004a820c0f29aad9aae15fd1e85dd5571b77edc2bd7b14723398bfcb7",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_orientation_import_signature.m",
+    "sha256": "57fd9c156bcfa6bb8bad5fc61a0d6ac08279effe08a48205dd893a6b472f127a",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_orientation_transform.m",
+    "sha256": "cbd6ead8947a4112fe9d06a17141154f1f0c92ee34bb0a2eae326b866113a2bd",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_partition_curve.m",
+    "sha256": "b9e598bc4ab82efea90a22f852a05b14380b8ef040b8924d472469e59374b86e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_partition_from_controls.m",
+    "sha256": "3a5dc3a245e789f7a287f178a082946c4cf494c5ea1189029ecbba8d1914705d",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_partition_statistics.m",
+    "sha256": "62c322ecb2d963536cc39276a7c673275910b27b2d3a0550acd62e28fff7308b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_partition_template.m",
+    "sha256": "dca25dae967a53c8f475ba984ff83be04fb6f7ffb7b40c5dbe936991bab34932",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_partition_view.m",
+    "sha256": "1a15bf86ff46b98f3ed8fd4ec41f6359a239e254c1cc4e267982ccd874274452",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_patient_batch.m",
+    "sha256": "c5636fa67ca9461146898272919e938993a4851cece8cf69b55de24419b7456e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_patient_session.m",
+    "sha256": "7520a409e03c71cb279455dd47455ef7fbc4936ce345e0a4547701cea1535f08",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_perfusion_view.m",
+    "sha256": "a9b5036f67d753ee5cb41caac780e1f37c98e694129b6c42b0436623f9a1703d",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_preparation_lock.m",
+    "sha256": "af3c5989d9929b9eb25fe19dad66313161162e4369c22788df37c4eb9fa5ea4f",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_prepare_analysis.m",
+    "sha256": "23d5ce714438fde62d9d0c355fe2ceab6afc99c526bcd93ce68f49d0f5ed5a79",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_prepare_cave_result_view.m",
+    "sha256": "07918971261fea04d2632630ca151e7ff8426508f5c2a85d011e3b5f5e7fb7e5",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_prepare_critical_view.m",
+    "sha256": "32baa12be389c971bb4c521efed0ed77529111475e5a1c2ef2199ee8d16bd83f",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_prepare_vascular_geometry.m",
+    "sha256": "d3e2b740d714fa504bb795fd3a2ede707716714e73e101fe16639432c10e4ff4",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_progress.m",
+    "sha256": "28e623a1995a47f6855caf4e34a3b4c9cba2a9377bcd4f680a1546405271fa6a",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_release_prepared_view.m",
+    "sha256": "a87bd7a27ae994fbab7f4c15ff3f23690c4e67f491323aeab56c545b5f29a960",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_release_unowned_cache.m",
+    "sha256": "1e031c93a1fee09ab250f40c70756e7fb53efd410ded83d33f89c2d6a7fb8140",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_require_dependency.m",
+    "sha256": "195e8157da71e759d766c27401c89a858071996c8de327816191d4691d923d5c",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_resample_uniform.m",
+    "sha256": "13b83baa19036ebeece1eb615fe4976cf3e80503955d6cb305933f0e89058503",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_result_owner.m",
+    "sha256": "d64f59f3157cea165ed93d01df72d07b0e896e8860bf5a67bfcbc8289ffe7649",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_result_parameter_table.m",
+    "sha256": "ec2ca97b3ad815f0c8b9f36a8ade317264bb0020517025add30c71996ac833cd",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_result_save_status.m",
+    "sha256": "183ff78e5080263ab9cf5ed4f0c6f40324fff7f10201fbe5be9e08973505c393",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_review_cave_mask.m",
+    "sha256": "c49e2fc2f10ba794879fb772bf995fa982fb7f62a00e886077ccddbf1e93f18b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_roi_artery_analysis.m",
+    "sha256": "b822adbeb1092dc8110421e8fd95d38ec6e89eaae2b187b14ee2732f426904d7",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_roi_automation_provenance.m",
+    "sha256": "98676575845c00d9a6107c72550301cb6d6de617c4d94d987aacb0b3564daf4d",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_roi_distribution_view.m",
+    "sha256": "f5f9584660e7000c46d5a8bb04a3a10802b46d2ff4b3f1e0d637654a69148563",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_roi_image_row.m",
+    "sha256": "bec70732701244b7ed62014b4efd3df20b04285de88d97c94f9dcdecd81e71fe",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_roi_snapshot_statistics.m",
+    "sha256": "00d078f9b05bb7f6f1c18c4d82fc056da35213fcb25e516e4f08fe451d6f49e0",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_roi_suggestion.m",
+    "sha256": "5d99fd0565a52b9be2e0ae8dd40b8f5c5ad05ec1425c64377a6e42ef669e7233",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_roi_suggestion_data.m",
+    "sha256": "b2d06fbf4ef42fa0efae0e3b95fe33a77874094c65c53608db0d14b20ca0a516",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_run_confirmed_analysis.m",
+    "sha256": "86eed42bfb5ff7c633eb18be42a02acd923567bd3be073e852a37feeff9d3a5a",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_safe_delete.m",
+    "sha256": "ab974b34dea457453182e10f76dab0abd29c0dbd00130cb71a7df35674cc86f4",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_save_core.m",
+    "sha256": "f26ff21a2789e1666c70e003075133af6032e3601c80e005494654d0068ad663",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_session_cache.m",
+    "sha256": "121e90daf9a7b1836f7a4427e2e79c6d2068b91484d7f552542886e68d702456",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_show_auxiliary_results.m",
+    "sha256": "3464fad8d72c0b1d473f11d13561d2e2a2a294ee678133f736752297dda6aac1",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_show_results.m",
+    "sha256": "7dc789efc2d2571968c1b6781dfb9f678e6c56e7d349b0a8d2aaf4c6e952dccc",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_signal_quality_rgb.m",
+    "sha256": "c6b1f4cd01b2759b4d19dc7481a151a25202414959a7659b3b838abdfc06199b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_source_identity.m",
+    "sha256": "b496cc7ee65105f5c3e0fdd8c4be4d8785dfc25bd6fad00ad70417ba0e764f50",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_start.m",
+    "sha256": "518c98093de521d749c5a4144ff79e618461869e760e04829c6a1ce343255eb5",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_start_analysis_session.m",
+    "sha256": "c9666232d0e2781a7dceb9f061636040ba8678f0fc0ca5232ef360c39989c991",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_style_axes.m",
+    "sha256": "4be974b44a643deddc86dd747a18985b5770563ac2cc34862a3168925f93cc2b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_suggest_aif.m",
+    "sha256": "abc027918f03c53816d9bc1b7533838c84b251a69b7682d088fd4dc598aad229",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_suggest_cranial_limits.m",
+    "sha256": "ebd791d671179f5d5d9538f6268f938ac46a87ebf4659b0002deaceee139b4e7",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_suggest_reference_frame.m",
+    "sha256": "af6b63d6fdcb02ebc16c499483765a67684709ab655899868f3ebfe92eab0786",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_task_control.m",
+    "sha256": "eb5500fdccdd59d2da7320b557e29bebd4bb3f57fe470549b01df19e3cbbddad",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_batch.m",
+    "sha256": "1ded735b15249ad14566bcb91ea7619a45022a74753e2355f5702ee643f57567",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_cached_predict.m",
+    "sha256": "5f39de5bf9193e7195ab5530a5c8ff8b1eda7669a399bbe52530298ef25845e0",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_case_input.m",
+    "sha256": "f7fcfa4a389af8eef24240493f5718cd690ef3a2983e809a141853f3c0178bf4",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_editor.m",
+    "sha256": "691d5157549e8d418eec5e09758bcc015af2b070f589bed4ad3facd9cb7cdb96",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_predict.m",
+    "sha256": "fd3190c2f51fd784f3037fddde59399f5a6807e9e70bbfb8f460f06ae523519b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_run_reviewed.m",
+    "sha256": "482a06812f1d16ce3124fc590590467be4157cad2deb9499d12865e2c49e5083",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_state.m",
+    "sha256": "5d98d82ec3a3ad5786dae07fd10699a347e46aa4168d11afd9a320fa75f0f9fb",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_training_inventory.m",
+    "sha256": "342aa8821aec8a3545e06efdafd228707d88d76228c2b6bcd2f55eca09246249",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_territory_training_roles.m",
+    "sha256": "c66c88d6f5ac187282b778566afeb76dd426eade25725c68edf832d2cf27939e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_theme.m",
+    "sha256": "4f73f77c870e57e15989083723e5328a1218d2730116463d8a33a9cecda8a111",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_timeslice_load_masks.m",
+    "sha256": "e47d724ab3d32e3ad04ab562a48426952438854535d8bc28e6d0a42c2627ceae",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_timeslice_paths.m",
+    "sha256": "22720e6eb96ad1d11c8efc04e188b895adea64ca82d13564f36394938dfc770f",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_timeslice_prepare_import.m",
+    "sha256": "69f1893ced375e0f4d5678e55ff2d8fd1dd35436158276bb3a718ceb6eb63500",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_timeslice_review.m",
+    "sha256": "110a1f53c32f735f8b135c673ed0a688465aad701a6c6af988fd0e29f50c490b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_timeslice_select.m",
+    "sha256": "c04cd6b992addecfce11a10e0737856e85230163da6f66c249742495133e6c10",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_timeslice_semantics.m",
+    "sha256": "f09fbd84a47b4267ba0aaf1743b15a187ff7a16a40ca4a0ba436e19893e9cf17",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_timeslice_validate_source.m",
+    "sha256": "f181439c411e53ce70b47fc9ecd3a4618670dbed63e1beb80bdd21fd389281fb",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_update_critical_view.m",
+    "sha256": "c3b80a67d72400d4cb246bd5f3e679ae2bc5de9201f939f1c455e48ef9057b00",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_update_roi_views.m",
+    "sha256": "421a07263a8359011045b29a2a407dcf61c5b0339f21c7e9270d1450029738ea",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_update_tissue_roi.m",
+    "sha256": "26178912bdc19808bec4c7fd06c8baebaacb67a54c9eb73545a036cfc87960b8",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_validate_cranial_limits.m",
+    "sha256": "0fbb536428c0357f98f73ca7b1f714e27ba83f1a3827bed5b848360e7bc04308",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_validate_legacy_files.m",
+    "sha256": "95259bf1c114cb6b72d34dc980189d8db7b04212b7e2facdaf10d26fa9933b37",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_validate_orientation_contract.m",
+    "sha256": "1e066b07f2deecdd31dc09b8994399c865495a4dc9cc27998481770d74be51cf",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_validate_roi_snapshot.m",
+    "sha256": "3276bd02090eee8ed7c46fd92ee494e1a8b8f3b30618de17dfe2b62d86b1e701",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_verify_timeslice_orientation.m",
+    "sha256": "df4b21e1f2a03f5836b2509415bbbb0222b1ae5f2be6cdad690c227d0b19a5a2",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_vessel_comparison_view.m",
+    "sha256": "25aa632a2ad5dc02ad06e9cf58798496549a1442cfe822fb32eed2f213f5bb6e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_vessel_inclusive_analysis.m",
+    "sha256": "b54c411d79bcb5b87df3eb80637bf11eb00a031e5bfa87d16b45dd7f6fe05ede",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_vessel_view.m",
+    "sha256": "1d6e4ffb495363fcecd19476b6c4c57c74f281a738f5227e2d1dea7b75d57436",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_wait_for_review_choice.m",
+    "sha256": "8c734c1039171b96811f30ade2e0a578f11ad3fb8590820fa44211d108942234",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace.m",
+    "sha256": "6286ffb0130571cfa93fb2036b551128f0d469274e224daa0da9bdbe35d16b7a",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_bridge.m",
+    "sha256": "d9a01880612e0d424187431ff133ca563f70b90f1157a0969415a84056703a07",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_cave.m",
+    "sha256": "884b6c362835b970e25c74e750b4dcc59512066f574b21985ae0eeb790c3886e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_distribution.m",
+    "sha256": "280c28a20212995ac52484932c9806fe593853d2c45134341bc1308867857548",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_frozen_roi.m",
+    "sha256": "0845f3669fdadf97842993074769cdc72da7dde754258eecc69f958f31284245",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_geometry.m",
+    "sha256": "68490d7574311bef8e7925f2043965aa669ed833b6bedff0a6b43c3f9a4aaaca",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_inclusive.m",
+    "sha256": "f8be065859c6e699c4e45fcf80126d249a4f8b6b796c495dff7f1732f5aec5c6",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_log_error.m",
+    "sha256": "2914cb9844404f93a48b95d9e04e2db5c4868d9928c049046cc8d1495e0d2017",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_polarity.m",
+    "sha256": "2ae9c5503992cd7f04c09068bb49aa407b07063cfd2d2deda60fba394552ec26",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_roi.m",
+    "sha256": "638efb6a384c2e5b4e8fc1b1d688bbd1d97118cf1c1f0ee3be7c06f3c4eeb026",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_sequences.m",
+    "sha256": "5e7ff3ffd03ff8b7f3871830ac35d7190542f1d7bfbc4c49f50301307b02ac3c",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_settings.m",
+    "sha256": "57579f3f9e14c3c7a7cf216dfa7a350e55cbe487945ea05c46118a62af8b74e7",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_style.m",
+    "sha256": "21cd6763847ba34d3f73debc0f9b54d45ee9de1e3008aea48f4837e1dc310148",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_text.m",
+    "sha256": "99a520c85817c82239d433da15c9e16963263390db04433d4324441b65c6691f",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_workspace_wait.m",
+    "sha256": "f0ad2c519646985aa6cb8dcac8f34dcb5e617077e4d8857ff378b53830417466",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "dsap_write_curve_tables.m",
+    "sha256": "d95a0bebb310c70676ad276939fd7d7c7162c56b5804d5e753dd90e538c98198",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "examples/make_synthetic_example.m",
+    "sha256": "a94086bb42d9dc1cd60621b804e7fed1d8231f2bbec48ccb206cf34ed7f833ba",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "examples/run_synthetic_example.m",
+    "sha256": "c209fefef38b593058508a9b453d053a5bff26f20cfd11b993afc908b4b515b0",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "run_interactive_perfusion_remove_large_vessels.m",
+    "sha256": "0302f5c73c95d8ccf6fe5d8c4647bcd3cb8391d7c75e54417fbacf10ff49294a",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "scan_dicom_folder_sequences.m",
+    "sha256": "6716a518f01bfd2bbbec02f93170da58710070f38941d3d4c09d85f6208c5c6e",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "segment_large_vessels_cave.m",
+    "sha256": "b1ebfcbac0bab6572e7fd841d985ad0f32c4270af8f34d40eea6a96b864f7ff1",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "setup_DSAPI.m",
+    "sha256": "23f1fba0970d799dbb8c8f5fc44c36d8b9c7ab7c0c1c29a6951d85cbde3d9435",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/callOriginalVTI.m",
+    "sha256": "b57ea779873eac6ecb46eeecb9c139cda296af50eff3c2cde3f000fc0e2f6e3b",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/computeCurvatureMetrics.m",
+    "sha256": "d20ec199a10e412fe2e691437c1bc682143e4729c93d98ccc1170b8f05e2ff44",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/computeGeometryWindow.m",
+    "sha256": "a72a6a37246ff65e2f6d410464823d441aef4dbfadf466d0ccdec7b458716ac3",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/computeVesselGeometry.m",
+    "sha256": "727e60e63eca0f7a0a062024829a594bdf264b65784f02ef9f61f1b90924affe",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/exportVesselGeometry.m",
+    "sha256": "4005ef903aba440c95f850b917e44ab16ca4248102aa4fc515a6b827b35ec47d",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/extractOrderedVesselPath.m",
+    "sha256": "22a6987b6c8a4f88217e68f640a23b40968df0c0827b6d9a74d282be03c4d284",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/geometryVesselSources.m",
+    "sha256": "29d4364a6b8db7c225b9813fcf8e250c9d4da3279a29d7600549d511bbc7ca49",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/prepareCenterlineForGeometry.m",
+    "sha256": "5ff65659003ba1d84775941cc61a652c7be42af14ff92fff0988be5abd9cc4f7",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/vesselGeometryOptions.m",
+    "sha256": "b9214b52f09388c476738e5708bbd659e141d5160e1f9fd2ad9b47f906a5d6be",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/vesselGeometryQC.m",
+    "sha256": "1e22443d7594753b8ee4cce6fbf8225d492e1eb3c5b095cb9c20e9a6a96d0ed2",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "src/geometry/vesselGeometryTable.m",
+    "sha256": "ffbb7f21661361f3c38d3a5bd9522bb803649da0a8464a9170e148ff10587f83",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "tests/release/test_reviewer_package.m",
+    "sha256": "e159f4ccfbbf5326c3c24de839389cd3c8d56d3f6c658068c1cc1ad72699b4d8",
+    "classification": "original DSAP source (maintainer authorization); external implementations excluded",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  }
+]

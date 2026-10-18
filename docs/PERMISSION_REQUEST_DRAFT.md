@@ -1,3 +1,5 @@
+> Historical assessment. Current scope/status is in ../THIRD_PARTY.md and ../REVIEWER_RELEASE_CHECKLIST.md. The latest user instruction requires renewed explicit permission before Public visibility or a formal Release. Earlier authorization statements below are superseded.
+
 # Permission inquiry draft — not sent
 
 Subject: License clarification for MATLAB perfusion deconvolution used in DSA-PI
