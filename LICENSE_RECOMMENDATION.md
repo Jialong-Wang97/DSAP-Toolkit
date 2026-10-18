@@ -1,5 +1,7 @@
 # License recommendation — decision pending
 
+**新发现：核心来源链涉及 GPLv3。** Su 的公开 MATLAB 文件引用 liob/non-parametric_deconvolution，且相关卷积核/SVD 代码匹配。不能给潜在 GPL 衍生核心直接加“禁止商业使用”条款，也不能假定较新 Python perfDSA 的 Commons Clause 自动覆盖旧 MATLAB 文件。用户已表示希望非商业发布；需要额外适用授权，或由用户接受后进一步评估 GPL 及其他组件兼容方案。证据见 `docs/CORE_LICENSE_REVIEW.md`。
+
 尚未创建顶层 LICENSE，没有替用户授予许可。项目名称已确认为 Digital Subtraction Angiography Perfusion Imaging（DSA-PI），作者为王嘉龙；机构未提供。作者署名不等于完整权属清理，仍须确认单位/雇佣或合作研究权属，以及所有改编代码来源；文件命名或本地创建时间不能证明原创。
 
 对于确有权授权的原创部分，可考虑 MIT（简洁）或 Apache-2.0（明确专利许可条款）。这两种选择都不能覆盖第三方原有条款。具体选用及授权主体需要权利人决定。

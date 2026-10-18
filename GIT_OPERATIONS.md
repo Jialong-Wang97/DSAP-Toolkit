@@ -45,6 +45,10 @@ Non-Git checks: completed recursive inventory and bounded text scanning; read tw
 
 ## Remaining source-release procedure
 
+Public-release continuation (2026-10-19): the user explicitly authorized Public visibility after checks pass. Read-only GitLab/GitHub source and license history checks located the GPLv3 provenance issue described in `docs/CORE_LICENSE_REVIEW.md`. Original application source was not modified. Only the evidence note, unsent permission draft and related status documents are eligible for the follow-up documentation commit. No `gh repo edit --visibility public` or Release command was run; consent is recorded and will not be requested again.
+
+Follow-up verification: `git diff --check`; GitHub `repo view --json visibility,url` confirmed PRIVATE; official CFF 1.2.0 schema validation passed using dependencies installed only into ignored audit reports; all 184 source candidate SHA256 values were unchanged. Documentation follow-up uses explicit-path staging, `git diff --cached --check`, a normal commit and normal push. Source, model files, downloaded upstream code, validation dependencies and clinical data remain excluded.
+
 Metadata follow-up (2026-10-19): user confirmed DSA-PI's formal title and author 王嘉龙, and could not recall the original Su source archive. Documentation/CITATION only are updated; repository name, visibility, source quarantine and existing algorithms are unchanged. The update uses explicit-path staging, staged diff checks and a normal new commit/push after PRIVATE verification; no history rewriting.
 
 1. Authentication and the private documentation checkpoint are complete. Never supply a password/token to the assistant.

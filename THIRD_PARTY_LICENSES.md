@@ -6,6 +6,8 @@ Local records establish the following; unverified provenance remains a blocker.
 
 Maintainer clarification (2026-10-19): the project is named Digital Subtraction Angiography Perfusion Imaging (DSA-PI), authored by 王嘉龙. The maintainer does not recall the original repository/archive used for Su's core perfusion code. Exact historical provenance therefore remains unresolved; no candidate repository is promoted to a verified source and no third-party attribution is replaced by the project author.
 
+Follow-up evidence: the public GitLab MATLAB file was retrieved at project commit `2adaa974e4e46e9e4ef2535ba515ed49329706bc`. Its header explicitly references liob/non-parametric_deconvolution (GPLv3 since 2019), and kernel/SVD statements match that earlier implementation. This is a substantive non-commercial/GPL compatibility blocker, not merely a missing repository URL. It does not prove the exact archive originally downloaded. See [core license review](docs/CORE_LICENSE_REVIEW.md) for pinned sources, hashes, comparison scope and possible licensing routes.
+
 Local runtime metadata was inventoried separately: 37 Python distribution metadata records across the CAVE and territory runtime locations, with discovered license-file paths, are recorded in `reports/open_source_audit/runtime_license_inventory.json`. This local-only list is not a complete or validated SBOM and does not clear redistribution of bundled binaries.
 
 | Component / files | Classification and evidence | License / release decision |
