@@ -75,3 +75,32 @@ Only exact reviewed text paths are staged; source guards do not change science,
 ROI Snapshot or save/lifecycle implementations. Publication of the missing
 third-party core/adapters is not claimed. Follow-up commands/results below
 record the normal source commit, private push and fresh-clone validation.
+
+### Commands completed for the reviewer source candidate
+
+1. `git add -- <explicit reviewed path list>`; `git ls-files` compared exactly
+   with the 194-file allowlist. No `git add .` / force-add used.
+2. `git diff --cached --check`: six existing whitespace warnings in previously
+   untracked stable source (five EOF blank lines and one trailing-whitespace
+   line). Kept source unchanged; no scientific patch was made for formatting.
+3. Normal commit `df05c1d` (source/setup/example/docs), followed by normal
+   `git push origin main`; remote advanced from `f57d6e9` through the prior
+   local assessment commit `e146d30` to `df05c1d`.
+4. Fresh `git clone` from the verified PRIVATE remote; `git rev-parse HEAD`
+   matched `df05c1d`; no developer-directory checkout was used for the tests.
+5. `git rev-list --objects --all` / `git cat-file`: 234 reachable blobs scanned;
+   no common secret/personal-path/clinical-UID or binary-content hits.
+6. `gh api .../readme` obtained actual rendered HTML. Initial unsupported
+   `--output` option was corrected to PowerShell file redirection; no remote
+   write resulted from that failed read-only invocation.
+7. `gh api .../zipball/<commit>` downloaded the real GitHub ZIP; exact content
+   parity and independent extracted-folder MATLAB test passed.
+8. Both MATLAB tests exited 0 with PARTIAL_REVIEWER_SMOKE_PASS, and explicitly
+   FULL_PERFUSION_WORKFLOW_NOT_TESTED. No unrelated scientific tests were run.
+9. `git status --short` in the clean clone: empty after generated-output tests.
+   Read-only per-command safe.directory was used where local ownership required
+   it; no global Git trust setting was changed.
+
+The follow-up evidence update uses explicit documentation-only staging, normal
+commit/push, and final PRIVATE/remote-HEAD/status checks. No visibility mutation,
+tag, Release, force push or history rewrite is part of this work.
