@@ -11,14 +11,15 @@ pixels=zeros(128,128,1,numel(t),'uint16');
 for k=1:numel(t)
  arterial=max(t(k)-1,0)^3*exp(-max(t(k)-1,0)/.65);
  parenchymal=max(t(k)-2,0)^3*exp(-max(t(k)-2,0)/1.1);
- pixels(:,:,1,k)=uint16(3000-700*arterial*vessel-120*parenchymal*tissue);
+ % Use the upper half of the actual uint16 stored range, as CAVE requires.
+ pixels(:,:,1,k)=uint16(16*(3000-700*arterial*vessel-120*parenchymal*tissue));
 end
 file=fullfile(outputDir,'SYNTHETIC_DSA.dcm');
 metadata=struct('PatientName','SYNTHETIC^PHANTOM','PatientID','SYNTHETIC-NOT-A-PATIENT', ...
  'StudyDescription','Generated software workflow phantom, not clinical evidence', ...
  'SeriesDescription','DSA-PI synthetic example','Modality','OT','FrameTime',250, ...
  'PixelSpacing',[1;1],'PhotometricInterpretation','MONOCHROME2', ...
- 'BitsStored',12,'HighBit',11,'PixelRepresentation',0);
+ 'BitsStored',16,'HighBit',15,'PixelRepresentation',0);
 dicomwrite(pixels,file,metadata,'CreateMode','Create');
 row=(12:116)';centerline=[64+12*sin(row/25),row];
 writematrix(centerline,fullfile(outputDir,'synthetic_centerline.csv'));

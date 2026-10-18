@@ -949,7 +949,7 @@
   },
   {
     "path": "examples/make_synthetic_example.m",
-    "sha256": "9a37af05fac8f23211682a586ca989a3e31d83fc25376c662c2bf88b187f2150",
+    "sha256": "8e282e31c2628fc4b57d0d5aae59f6a2c0b056aea41d8fa3e6f98f894e6fbebb",
     "classification": "original DSAP source (maintainer authorization); external implementations excluded",
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
   },
@@ -1072,6 +1072,12 @@
     "sha256": "ffbb7f21661361f3c38d3a5bd9522bb803649da0a8464a9170e148ff10587f83",
     "classification": "original DSAP source (maintainer authorization); external implementations excluded",
     "hash_encoding": "UTF-8, LF line endings (Git-normalized)"
+  },
+  {
+    "path": "tests/release/test_cave_bundle.py",
+    "classification": "original DSAP packaging test; GPL-3.0-only",
+    "hash_encoding": "UTF-8, LF line endings (Git-normalized)",
+    "sha256": "59fc2666237ad18b102e3d35ab4556ae58ccfa5da66a560d9e617f76c9eb92b9"
   },
   {
     "path": "tests/release/test_reviewer_package.m",

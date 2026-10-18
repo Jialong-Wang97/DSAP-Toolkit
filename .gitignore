@@ -225,6 +225,7 @@
 !/src/geometry/vesselGeometryQC.m
 !/src/geometry/vesselGeometryTable.m
 !/tests/release/test_reviewer_package.m
+!/tests/release/test_cave_bundle.py
 
 **/node_modules/
 **/__pycache__/
