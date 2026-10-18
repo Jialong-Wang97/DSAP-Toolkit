@@ -1,6 +1,16 @@
-# Synthetic software-workflow example
+# Synthetic Example
 
-Run from the project root in MATLAB R2024b with Image Processing Toolbox:
+Generate a DSA sequence, open it in DSAP, and export vessel geometry results.
+
+## Requirements
+
+Use MATLAB R2024b with Image Processing Toolbox on Windows x64, with the JVM
+enabled. This example uses the included MATLAB routines; Python, CAVE and VTI
+are not needed.
+
+## Run
+
+Set MATLAB's Current Folder to the project root, then run:
 
 ```matlab
 setup_DSAPI;
@@ -8,29 +18,52 @@ result = run_synthetic_example;
 fig = dsap_start;
 ```
 
-1. The example creates a 128 × 128 × 40 multiframe DICOM using only generated
-   shapes and time curves; no clinical image/header/mask is used.
-2. It reads the generated DICOM and calculates original vessel geometry from
-   the generated ordered centerline. VTI is explicitly disabled in this example.
-3. Inspect `outputs/synthetic_example/geometry_metrics.csv`,
-   `synthetic_geometry.mat`, and `synthetic_centerline.png`.
-4. In the DSAP GUI select `outputs/synthetic_example/SYNTHETIC_DSA.dcm` to verify
-   native DICOM import. Metadata identifies it as SYNTHETIC, not a patient.
-5. Perfusion is currently blocked by missing external core/CAVE adapters.
-   Clicking analysis must report this, not produce fabricated perfusion maps.
+The command creates a 128 × 128 × 40 multiframe DICOM, reads it, calculates
+geometry from a generated ordered centerline, and exports the results.
 
-The generated input is the example dataset; no binary download is needed.
-Outputs are generated locally and ignored by Git. This partial workflow is not
-a clinical phantom validation and is not the requested completed reviewer
-perfusion demonstration. The release checklist records that distinction.
+## Open in the GUI
 
-To repeat the packaging smoke test in a fresh checkout:
+1. In the DSAP workspace, select `outputs/synthetic_example/SYNTHETIC_DSA.dcm`.
+2. Browse the sequence to view the generated vessel and tissue signals.
+3. Open the output directory to inspect the geometry results below.
+
+## Output Files
+
+All files are written to `outputs/synthetic_example/` by default.
+
+| File | Contents |
+|---|---|
+| `SYNTHETIC_DSA.dcm` | Generated DSA sequence, labelled SYNTHETIC |
+| `geometry_metrics.csv` | Length, chord length and distance metric |
+| `synthetic_geometry.mat` | Geometry result structure |
+| `synthetic_centerline.png` | Generated centerline plot |
+
+To repeat the example in a different output folder:
 
 ```matlab
-addpath(fullfile(pwd,'tests','release'));
+result = run_synthetic_example(fullfile(pwd, 'outputs', 'synthetic_example_2'));
+```
+
+Running again with the same output folder regenerates the example files there.
+Generated outputs are ignored by Git.
+
+## Example Scope
+
+All images and time curves are generated mathematically, without patient data.
+The synthetic example is provided only to verify software execution and is not a clinical validation dataset.
+
+The example performs DICOM import and geometry export. Perfusion analysis uses
+additional components described in [THIRD_PARTY.md](../THIRD_PARTY.md); this
+example does not calculate CBF, CBV, MTT or Tmax. VTI is disabled in the example.
+
+## Developer Check
+
+To run the packaging smoke test in a fresh MATLAB session without unsaved work:
+
+```matlab
+addpath(fullfile(pwd, 'tests', 'release'));
 test_reviewer_package;
 ```
 
-The test resets MATLAB's path, starts and closes the GUI, imports the generated
-DICOM, exports geometry and verifies clear missing-dependency diagnostics.
-Run it in a fresh MATLAB session without unsaved work.
+The test resets MATLAB's path, opens and closes the GUI, reads the generated
+DICOM, checks geometry exports, and checks missing-dependency messages.

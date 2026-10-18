@@ -1,101 +1,124 @@
-# Third-party dependencies
+# Third-Party Dependencies
 
-Status: reviewer preparation, 2026-10-19. The adapted `scripts/cave_trial.py` is included under the unchanged CAVE
-modified MIT + Commons Clause terms in `licenses/CAVE_ADAPTER_LICENSE.txt`.
-Official CAVE source, model, runtime and private validation resources remain external. This is
-a conservative distribution decision, not a claim that all redistribution is
-forbidden. Original DSAP MATLAB wrappers are included; they are not the upstream
-implementations. Do not remove upstream notices when installing dependencies.
+Use this guide to install components for perfusion analysis and optional
+extensions. Paths below are relative to the DSAP project root. Keep the
+original licenses and copyright notices with installed components.
 
-| Component / author | Use | Bundled | Original terms / classification | Installation |
+## Components
+
+| Component / author | Use | Included | Original license | Installation |
 |---|---|---|---|---|
-| Su perfusionDSA, derived from liob/non-parametric_deconvolution | Required TSVD perfusion | No | **C: UNRESOLVED** for the exact adapted DSAP file. Earlier upstream is GPLv3; Su snapshot has no separate license. | See Core below; no confirmed public source for the exact compatible adapter. |
-| CAVE / Ruisheng Su et al. | Required artery/vein segmentation in the current perfusion workflow | No | **B: external**; modified MIT with Commons Clause / non-commercial wording; not DSAP GPL. The DSAP adapter is now included with file-specific attribution/terms. | Pinned source and official weights below; obtaining these alone does not install the DSAP adapter. |
-| VTI / Maz M. Khansari; arc_length credits John D’Errico | Optional tortuosity index | No | **B: external**; pinned GitHub source has non-commercial permission. Embedded arc_length has BSD-2-Clause notice. File Exchange advertises BSD-3-Clause but archive identity has not been verified. | Install pinned `.m` files and notices under `third_party/vessel_tortuosity_vti/`. Other geometry works without VTI. |
-| autoTICI territory model / Ruisheng Su et al. | Optional ACA/MCA prediction | No | **B: external** source/model with Commons Clause terms; exact DSAP adaptation **C: UNRESOLVED** | Official model below; compatible inference/config bundle not yet distributable. Do not rename or convert to bypass terms. |
-| MATLAB / MathWorks; Image Processing Toolbox | Required GUI, DICOM and image operations | No | **B: external**, proprietary user license | Install MATLAB R2024b Update 2 with Image Processing Toolbox via MathWorks. JVM required. |
-| Python / Python Software Foundation; PyTorch and scientific packages | CAVE/territory runtime | No | **B: external**; PSF, PyTorch BSD-style and respective package licenses | Python 3.12 x64, torch 2.6.0 CPU; use upstream distributions, not a copied developer venv. See Runtime below. |
-| Node.js / Realm | Optional TIMESlice integration | No | **B: external**, Node MIT and Realm package Apache-2.0; native/transitive notices separate | Node 24.19 and Realm 12.14.2; reader and case-specific orientation validation resources remain **C: UNRESOLVED**. Legacy is unavailable in this candidate. |
-| DSAP centerline and curvature routines | Geometry / AutoAIF support | Yes, original wrappers and routines | DSAP original GPL-3.0; MATLAB `bwskel` remains a toolbox dependency | Included in `src/geometry/` and `AutoAIF/`; no VTI formula is copied into these routines. |
+| MATLAB and Image Processing Toolbox / MathWorks | GUI, DICOM and image processing | No | MathWorks proprietary license | Install MATLAB R2024b Update 2 with Image Processing Toolbox and JVM enabled. |
+| Su perfusionDSA, based on liob/non-parametric_deconvolution | Perfusion deconvolution | Core: no; DSAP helpers: yes | Earlier upstream: GPLv3; no separate license in the Su snapshot; exact adapted file's terms remain unconfirmed | See Perfusion Core. |
+| CAVE / Ruisheng Su et al. | Artery/vein segmentation for perfusion | Official source/weights: no; DSAP adapters: yes | Modified MIT + Commons Clause; see bundled adapter license | See CAVE Installation. |
+| Python / Python Software Foundation; PyTorch and scientific packages | CAVE runtime | No | PSF, PyTorch BSD-style and individual package licenses | Installed into `.venv_cave` by the CAVE setup script, using Python 3.12. |
+| VTI / Maz M. Khansari; arc_length credits John D'Errico | Optional tortuosity index | No | Pinned source: non-commercial permission; embedded arc_length: BSD-2-Clause | See VTI. |
+| autoTICI / Ruisheng Su et al. | Optional ACA/MCA territory prediction | No | Upstream source/model includes Commons Clause terms | See Territory Prediction. |
+| Node.js / Realm | Optional TIMESlice / Legacy import | No | Node: MIT; Realm: Apache-2.0, plus package notices | See TIMESlice / Legacy. |
 
-## Core — actual blocking dependency
+DSAP's centerline and curvature routines are included in `src/geometry/` and
+`AutoAIF/` under the DSAP GPL-3.0 license. They use MATLAB toolbox functions.
 
-Provenance: [Su snapshot](https://gitlab.com/radiology/igit/q-maestro/perfusiondsa/-/tree/2adaa974e4e46e9e4ef2535ba515ed49329706bc)
-and [earlier GPLv3 upstream](https://github.com/liob/non-parametric_deconvolution/tree/67ca5c1f85e8912119b267e7aeb56085068ae90a).
-The required DSAP function is `modelfree_deconvolution_corrected.m` in the project
-root. It is modified third-party code, not original DSAP code. The direct project helpers `centered_temporal_gaussian_filter.m`, `gausswin.m`
-and workflow helper `detect_aif_onset.m` are now included as original DSAP code;
-see the file-level evidence in `docs/PERFUSION_BLOCKER_FILE_REVIEW.md`. **Do not rename an upstream
-function and assume numerical/interface equivalence.** The maintainer must
-clear and supply the exact compatible files with their original attribution
-before a reviewer can complete perfusion. No replacement algorithm is supplied.
+## Perfusion Core
 
-## CAVE — independently obtainable parts
+Full perfusion analysis requires the compatible
+`modelfree_deconvolution_corrected.m` in the project root. This file is not
+included, and a compatible public download is not currently provided.
+Downloading the upstream project alone does not supply this DSAP-specific file.
 
-Official [CAVE source](https://github.com/RuishengSu/CAVE_DSA), revision
-`c3b0c215db4029368c9499a12417178014d58d6f`, belongs at `third_party/CAVE_DSA/`.
-Use the upstream Git LFS instructions or [official Zenodo record](https://zenodo.org/records/15641964).
-Required AV weight: `third_party/CAVE_DSA/checkpoints/sequence_av_sigmoid_image512_ConvGRU_logical-star-1097.pt`.
-SHA256: `c90b7e066e32039cf61352993a9c57784caac6aa1fdb042dc4801df6dc729651`.
-Preserve the upstream license and dependency notices. A Git LFS pointer is not a weight file.
+The associated DSAP helpers `centered_temporal_gaussian_filter.m`, `gausswin.m`
+and `detect_aif_onset.m` are included. The GUI and synthetic geometry example
+run without the external core.
 
-DSAP now includes `scripts/cave_worker.py` (original glue, GPL-3.0-only) and
-`scripts/cave_trial.py` (modified CAVE preprocessing/inference adapter, upstream
-modified MIT + Commons Clause). Do not apply DSAP's GPL grant to the latter.
-The exact license and changes are documented in `docs/PERFUSION_BLOCKER_FILE_REVIEW.md`.
+Source references:
 
-From a new checkout, using an independently installed Python 3.12 x64:
+- [Su perfusionDSA](https://gitlab.com/radiology/igit/q-maestro/perfusiondsa/-/tree/2adaa974e4e46e9e4ef2535ba515ed49329706bc).
+- [Earlier GPLv3 deconvolution implementation](https://github.com/liob/non-parametric_deconvolution/tree/67ca5c1f85e8912119b267e7aeb56085068ae90a).
+
+## CAVE Installation
+
+DSAP includes the interface files:
+
+- `scripts/cave_worker.py`: DSAP glue code, GPL-3.0-only.
+- `scripts/cave_trial.py`: adapted CAVE preprocessing/inference code, covered by
+  [the original modified MIT + Commons Clause terms](licenses/CAVE_ADAPTER_LICENSE.txt).
+
+### Install source, weights and Python packages
+
+Install Python **3.12 x64**. Read the adapter license above and the asset terms
+on the official [CAVE project](https://github.com/RuishengSu/CAVE_DSA) and
+[Zenodo record](https://zenodo.org/records/15641964), then run from the project
+root in PowerShell:
 
 ```powershell
 py -3.12 scripts/install_cave_dependency.py --accept-cave-terms
 ```
 
-Read `licenses/CAVE_ADAPTER_LICENSE.txt` and the linked official asset terms
-before selecting this flag. If the Python launcher is not installed, invoke
-your Python 3.12 executable with the same script/arguments. The script obtains
-the fixed official source/weight, checks SHA256, creates `.venv_cave`, installs
-the declared versions and runs the environment probe. It refuses mismatched
-existing files and never imports a developer runtime. `--assets-only` skips
-Python setup. Downloaded upstream notices and original headers are retained.
-This is dependency setup, not a grant of commercial rights or a resolution of
-the separate Su-core hold. Fresh-install results are recorded in the checklist.
+If the Python launcher is unavailable, use your Python 3.12 executable with
+the same script and arguments. The installer downloads the pinned source and
+weights, checks SHA256, creates `.venv_cave`, installs packages and runs an
+environment probe. Model download requires an internet connection.
 
-## VTI — optional
+The runtime uses **PyTorch 2.6.0 CPU**, NumPy, SciPy, scikit-image, pydicom,
+Pillow and pylibjpeg packages. Versions are listed in
+[scripts/requirements-cave.txt](scripts/requirements-cave.txt). This configuration
+runs on CPU; a GPU is not required. Use `--assets-only` to download source and
+weights without creating the Python environment.
 
-[Official source](https://github.com/maz369/Vessel-Tortuosity-Index-VTI-/tree/61f9c647205ec6de3c3e766bb1cacc8b73d340ab).
-Download revision `61f9c647205ec6de3c3e766bb1cacc8b73d340ab` under its original terms.
-Place `vessel_tortousity_index.m`, `arc_length.m`, `sd_theta.m`,
-`mean_distance_measure.m`, `num_critical_pts.m` and original notices together in
-`third_party/vessel_tortuosity_vti/`. If absent, VTI is NaN/invalid with an explicit
-warning; other original geometry metrics remain available.
+After installation, run `setup_DSAPI` in MATLAB to inspect the component checks.
+The CAVE installer installs CAVE components; the perfusion core is separate.
 
-## Territory — optional
+### File locations
 
-[autoTICI source](https://github.com/RuishengSu/autoTICI/tree/7c5ddb0516800f1e4445c6fcc07d78060b7bf7a9),
-[official checkpoint](https://huggingface.co/RuishengSu/autoTICI/blob/bce0e33ce00b99a42f2c3b5668ee84849d2d0542/models/region_segmentation/segmentation_model.pth).
-Original checkpoint SHA256: `e920f4d8ce0a92cadfd293c2f6f4f9125cad32e8e0532cc67eb3e9a2917a4ffe`.
-The existing DSAP interface expects `vascular_segmentation/inference.py`,
-`vascular_segmentation/config.yaml` (JSON syntax), and the model specified by
-`model_path`, resolved relative to that config. The development installation
-uses `model/territory_model.ts`; no such converted model is distributed here.
-The original checkpoint is not a drop-in replacement for that interface.
-Compatible adapter/config/model delivery remains **UNRESOLVED**. No automatic
-download or conversion is performed.
+| Item | Location |
+|---|---|
+| Official CAVE source | `third_party/CAVE_DSA/` |
+| AV checkpoint | `third_party/CAVE_DSA/checkpoints/sequence_av_sigmoid_image512_ConvGRU_logical-star-1097.pt` |
+| Python environment | `.venv_cave/` |
+| Windows Python executable | `.venv_cave/Scripts/python.exe` |
 
-## Runtime
+Pinned source revision: `c3b0c215db4029368c9499a12417178014d58d6f`.
+Checkpoint SHA256: `c90b7e066e32039cf61352993a9c57784caac6aa1fdb042dc4801df6dc729651`.
+For manual acquisition, use the official project's Git LFS instructions or the
+Zenodo record above and place the complete weight file at the listed location.
+Keep the upstream license and source headers alongside the installed files.
 
-No Python is needed for the included synthetic geometry example. CAVE/territory
-need Python 3.12 x64 and a freshly created project-local `.venv_cave/` (Windows
-executables under `Scripts/`), torch 2.6.0 CPU, NumPy, SciPy, scikit-image,
-pydicom, Pillow and pylibjpeg decoding packages. GPU is not required by the
-existing DSAP CPU integration. Direct package versions are listed in `scripts/requirements-cave.txt` and
-installed by the CAVE-specific command above. Full DSAP readiness is still
-blocked on `modelfree_deconvolution_corrected.m`; optional components are not
-required by that installer. `setup_DSAPI` checks file availability and Python
-imports when the external interpreter exists; it does not silently install
-dependencies or accept their licenses.
+## VTI — Optional
 
-Legacy reader paths are `timeslice_realm_reader/`, `cave_runtime/node.exe` and
-`contracts/TIMESlice_Legacy_Orientation_Contract_v1.mat`. The contract contains
-private validation provenance and must not be shared as a generic template.
-Legacy is optional, and does not block the native synthetic import.
+Download the [VTI source](https://github.com/maz369/Vessel-Tortuosity-Index-VTI-/tree/61f9c647205ec6de3c3e766bb1cacc8b73d340ab)
+at revision `61f9c647205ec6de3c3e766bb1cacc8b73d340ab`. Place these files and their
+original notices together under `third_party/vessel_tortuosity_vti/`:
+
+- `vessel_tortousity_index.m`
+- `arc_length.m`
+- `sd_theta.m`
+- `mean_distance_measure.m`
+- `num_critical_pts.m`
+
+Without this component, VTI is reported as NaN/invalid; other geometry metrics
+remain available. Method reference:
+[Khansari et al., VTI](https://doi.org/10.1364/BOE.8.003796).
+
+## Territory Prediction — Optional
+
+Sources: [autoTICI](https://github.com/RuishengSu/autoTICI/tree/7c5ddb0516800f1e4445c6fcc07d78060b7bf7a9)
+and its [official checkpoint](https://huggingface.co/RuishengSu/autoTICI/blob/bce0e33ce00b99a42f2c3b5668ee84849d2d0542/models/region_segmentation/segmentation_model.pth).
+Checkpoint SHA256: `e920f4d8ce0a92cadfd293c2f6f4f9125cad32e8e0532cc67eb3e9a2917a4ffe`.
+
+The DSAP interface expects `vascular_segmentation/inference.py`,
+`vascular_segmentation/config.yaml` (JSON syntax), and a model selected by
+`model_path`, resolved relative to the config file. A compatible inference,
+configuration and model bundle is not currently provided. The official
+checkpoint alone does not enable this interface.
+
+## TIMESlice / Legacy — Optional
+
+This integration uses Node **24.19**, Realm **12.14.2**, a matching reader and
+orientation resources. The interface expects:
+
+- `timeslice_realm_reader/export_cave_current_rois.js`
+- `cave_runtime/node.exe`
+- `contracts/TIMESlice_Legacy_Orientation_Contract_v1.mat`
+
+These resources are not included. Use native DICOM import for the included
+workflow and synthetic example.
