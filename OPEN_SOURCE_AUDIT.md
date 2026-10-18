@@ -2,6 +2,8 @@
 
 审计日期：2026-10-19（Asia/Tokyo）。结论：**NOT READY FOR PUBLIC RELEASE**。
 
+最新决策：负责人已接受商业使用并选择评估 GPL，先前统一“非商业”的偏好不再适用于其可授权代码。第三方条款仍保留。实测调用结构显示 VTI 是 MATLAB 内直接调用，CAVE/供血区是外部 Python 进程；当前主分析仍依赖 CAVE，不能只忽略该目录就宣称得到可运行 GPL 全功能版。评估结果见 `docs/GPL_DISTRIBUTION_PLAN.md`。
+
 负责人随后确认正式名称为 Digital Subtraction Angiography Perfusion Imaging（DSA-PI），作者为王嘉龙；机构未提供。原有代码路径、DSAP 标识和 DSAP-Toolkit 仓库名保持不变。负责人不记得 Su 核心灌注代码最初的仓库/压缩包，故该部分仍归为第三方改编，精确历史来源与许可证待核实；作者确认不解除第三方权利限制。
 
 后续已明确授权检查通过后转 Public；当前仍 PRIVATE。已定位 Su 的 MATLAB 公开文件，其引用的更早源码为 GPLv3，相关实现有明确文本匹配。该新证据意味着统一“非商业”发布存在实质许可兼容问题，详见 `docs/CORE_LICENSE_REVIEW.md`。已生成 184 项运行源码候选及 SHA256（共 659,660 bytes，7 项启发式命中），只存放于本地审计目录，不代表已批准上传。官方 PyPI 已确认 NumPy 2.5.1、SciPy 1.18.0、pydicom 3.0.2 版本可获取，但全新安装测试尚未执行。

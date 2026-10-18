@@ -17,6 +17,7 @@
 /docs/*
 !/docs/CORE_LICENSE_REVIEW.md
 !/docs/PERMISSION_REQUEST_DRAFT.md
+!/docs/GPL_DISTRIBUTION_PLAN.md
 !/docs/screenshots/
 /docs/screenshots/*
 !/docs/screenshots/README.md

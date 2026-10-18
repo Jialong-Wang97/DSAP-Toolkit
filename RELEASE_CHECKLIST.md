@@ -2,6 +2,8 @@
 
 **NOT READY FOR PUBLIC RELEASE**
 
+Current licensing direction: maintainer accepts commercial use and evaluation of GPL. See `docs/GPL_DISTRIBUTION_PLAN.md`; acceptance is recorded and does not need to be requested again. The full mixed-license application is not yet cleared.
+
 Date: 2026-10-19. This is a blocked preparation checkpoint, not a completed GitHub delivery.
 
 ## Completed locally

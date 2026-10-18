@@ -95,6 +95,8 @@ CAVE AV 的动静脉并集使用 sigmoid 0.5 阈值，可能包含细血管，�
 
 发布复核已发现 Su 的 MATLAB 核心来源链涉及 GPLv3，不能直接把它改为“仅限非商业”。[许可证据与可行路线](docs/CORE_LICENSE_REVIEW.md)已记录；目前尚未取得解决该冲突的授权或完成兼容方案。维护者已授权检查通过后公开仓库，但尚未执行公开操作。
 
+维护者现已接受商业使用，选择评估 GPL 发布。[分组件 GPL 方案](docs/GPL_DISTRIBUTION_PLAN.md)说明核心、CAVE、VTI 与供血区模型的不同条款；这不表示第三方的商业限制已经被取消，也不表示整个软件已取得 GPL 授权。
+
 尚未授予项目整体开源许可证；`LICENSE_RECOMMENDATION.md` 只是建议。第三方条款独立适用，CAVE/相关模型及当前 VTI 来源存在限制，不能把整个包称为 MIT。未经权属与许可证确认不得公开发布。
 
 For research use only. Not a medical device or a validated clinical decision-making system. No diagnostic or treatment use is claimed. 人工审核及本地研究验证不构成临床有效性、监管批准或安全性认证。

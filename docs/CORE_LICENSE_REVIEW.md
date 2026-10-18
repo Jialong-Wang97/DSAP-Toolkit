@@ -2,7 +2,7 @@
 
 Date: 2026-10-19. Project: Digital Subtraction Angiography Perfusion Imaging (DSA-PI), author 王嘉龙.
 
-The maintainer has authorized eventual Public visibility after checks pass, and requested non-commercial distribution. Permission to change GitHub visibility does not supply missing third-party license rights. No visibility change has been made.
+The maintainer has authorized eventual Public visibility after checks pass. The initial non-commercial preference was subsequently superseded by explicit acceptance of commercial use and evaluation of a GPL route. Permission to change GitHub visibility does not supply missing third-party license rights. No visibility change has been made. Current component assessment: [GPL_DISTRIBUTION_PLAN.md](GPL_DISTRIBUTION_PLAN.md).
 
 ## Newly located evidence
 
@@ -25,10 +25,10 @@ GPLv3 grants distribution rights subject to its conditions and does not allow an
 
 This finding does **not** mean that DSA-PI can never be published, nor establish that every DSAP file is GPL. It identifies a concrete compatibility question requiring a supported licensing route. CAVE's Commons Clause and the pinned VTI non-commercial condition also need to be considered before treating a combined distribution as GPL-compatible. Separate folders or subprocesses alone are not a proven resolution of the relevant legal scope.
 
-## Supported next decisions
+## Decision history
 
-- Keep the desired non-commercial restriction: obtain an explicit compatible grant covering the actual Su-derived implementation and any underlying rights. Su's permission alone is sufficient only for rights Su can actually grant; ask about the earlier upstream author(s) and any separate permission.
-- Consider GPL distribution: accept that GPL-covered code may be used commercially, then assess distribution boundaries and compatibility with CAVE/VTI and other components. Do not promise this path is already cleared.
+- Keeping a blanket non-commercial restriction would require applicable additional rights. The maintainer did **not** choose this route.
+- The maintainer **chose to accept commercial use and evaluate GPL distribution**. The remaining work is rights-chain and component compatibility assessment, not another request to accept commercial use. Su's permission can only cover rights Su can grant; earlier upstream rights and any separate permissions must remain accounted for.
 
 The draft in `PERMISSION_REQUEST_DRAFT.md` is ready for the maintainer to review. It has not been sent to anyone. No replacement scientific implementation, core refactor, or license rewrite is proposed or performed here.
 

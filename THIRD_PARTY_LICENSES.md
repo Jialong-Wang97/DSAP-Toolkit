@@ -1,6 +1,8 @@
 # Third-party license audit
 
 Audit date: 2026-10-19. This is an evidence register, not a replacement license.
+
+Current maintainer decision: accept commercial use and assess GPL. Direct MATLAB VTI calls and mandatory CAVE workflow coupling were inspected; a blanket GPL label for the whole bundle is not supported. The component-by-component route, existing fallback behavior and remaining evidence requirements are in `docs/GPL_DISTRIBUTION_PLAN.md`.
 All existing copyright notices and license files are preserved unchanged.
 Local records establish the following; unverified provenance remains a blocker.
 
